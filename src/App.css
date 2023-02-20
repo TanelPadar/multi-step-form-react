@@ -1,11 +1,31 @@
 .App {
   text-align: center;
+
 }
+
+
+
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+html{
+  font-size: 16px;
+  font-family: Ubuntu-Regular;
+  background-color: hsl(206, 94%, 87%);
+  height: 100vh;
+  color: hsl(213, 96%, 18%);
+}
+
+.inputError {
+  display: flex;
+  justify-content: end;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +56,119 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: Ubuntu-bold;
+  src: url(../public/fonts/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url(../public/fonts/Ubuntu-Medium.ttf);
+}
+
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url(../public/fonts/Ubuntu-Regular.ttf);
+}
+
+body {
+  font-family:Ubuntu-Regular;
+  background-color: hsl(230, 100%, 99%);
+  color: hsl(213, 96%, 18%);;
+}
+
+.container-app {
+  font-family: Ubuntu-Regular;
+}
+
+.step-info {
+  color: white;
+  font-family: Ubuntu-bold;
+  font-size: 15px;
+}
+
+.step {
+  color: hsl(231, 11%, 63%);
+}
+
+.header {
+  font-family: Ubuntu-Medium;
+  color: hsl(213, 96%, 18%);
+  font-weight: 600;
+  font-size: 25px;
+  width: 33.5rem;
+}
+
+.container {
+  width: 900px !important;
+
+}
+
+.container-fluid {
+
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: solid hsl(231, 11%, 63%) .2px;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.paragraph-text {
+  color: hsl(231, 11%, 63%);
+}
+
+
+.firstView input {
+  width: 31.25rem;
+  border: solid 2px hsl(231, 11%, 63%);
+  border-radius: 5px;
+  height: 35px;
+
+}
+
+.firstView .inputError {
+  width: 31.25rem;
+}
+
+.next-step-btn {
+  background-color:hsl(213, 96%, 18%) !important;
+  border: none !important;
+}
+
+
+.pic {
+  background-image: url("./images/bg-sidebar-desktop.svg");
+  height: 550px;
+
+}
+
+#root {
+  background-color: hsl(206, 94%, 87%);
+}
+
+label {
+  color: hsl(213, 96%, 18%);
+}
+
+
+
+
+
+
+
+
+
+

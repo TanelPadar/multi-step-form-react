@@ -1,0 +1,149 @@
+.card {
+    width: 11rem;
+    height: 10rem;
+
+}
+
+.card h6 {
+    color: hsl(213, 96%, 18%) !important;
+}
+
+.card p {
+    color: hsl(231, 11%, 63%);
+}
+
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    color: hsl(213, 96%, 18%);
+}
+
+.toggle-container {
+    height: 55px;
+    color: hsl(213, 96%, 18%);
+    font-family:Ubuntu-Medium ;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 23px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.switch input:checked + .slider {
+    background-color: hsl(213, 96%, 18%);
+}
+
+.switch input:focus + .slider {
+    box-shadow: hsl(213, 96%, 18%);;
+}
+
+.switch input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.add-ons-card {
+    width: 35rem;
+    height: 5rem;
+    border-color: hsl(243, 100%, 62%) !important;
+}
+.add-ons-card p{
+    margin: 0;
+}
+
+.add-ons-card .service-info {
+    color: hsl(213, 96%, 18%);
+    font-family: Ubuntu-Medium;
+}
+
+.add-ons-card .service-desc {
+    color: hsl(231, 11%, 63%);
+}
+
+.add-ons-card .service-price {
+    color: hsl(243, 100%, 62%);
+}
+
+.summary-card .change {
+
+}
+
+.summary-card .arcade-monthly {
+    margin: 0 !important;
+    color: hsl(213, 96%, 18%);
+    font-family: Ubuntu-bold;
+}
+
+.summary-card .price {
+    color: hsl(213, 96%, 18%);
+    font-family: Ubuntu-bold;
+    text-decoration:none !important;
+    margin: 0 !important;
+}
+
+.summary-card .services {
+    margin: 0 !important;
+    color: hsl(231, 11%, 63%);
+}
+
+.summary-card .price2 {
+    margin: 0 !important;
+    font-family: Ubuntu-Regular;
+    color: hsl(213, 96%, 18%);
+}
+
+.confirm-btn {
+    background-color: hsl(243, 100%, 62%);
+}
+
+.thankyou {
+    width: 100px;
+}
+
+.text-wrap {
+    width: 28rem;
+}
